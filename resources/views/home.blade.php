@@ -5,11 +5,11 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-sm-12 d-lg-flex justify-content-sm-around m-3">
-                <h2 class="col-md-12 col-lg-6 text-lg-center">
+            <div class="col-sm-12 d-md-flex justify-content-sm-around m-3">
+                <h2 class="col-sm-12 col-md-6 text-lg-center">
                     Elenco Task
                 </h2>
-                <div class="col-md-12 col-lg-6 text-lg-center">
+                <div class="col-sm-12 col-md-6 text-md-center">
                     <a href="{{route('create')}}" class="btn btn-success">Aggiungi Task</a>
                 </div>
             </div>

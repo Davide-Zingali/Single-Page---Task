@@ -8,11 +8,17 @@
 
         <div class="card text-white bg-secondary mt-3" style="max-width: 100%;">
 
-            <div class="card-header d-flex justify-content-sm-around">
-                <h4>Dettagli del task: {{$task -> titolo}}</h4>
-                <a class="modifica" href="{{route('edit', $task -> id)}}">
-                    <i class="fa fa-pencil-square-o" aria-hidden="true"> Modifica</i>
-                </a>
+            <div class="card-header d-lg-flex justify-content-sm-around">
+                <div class="col-md-12 col-lg-8">
+
+                    <h4>Dettagli del task: {{$task -> titolo}}</h4>
+                </div>
+                <div class="col-md-12 col-lg-4 text-right">
+
+                    <a class="btn btn-secondary modifica" href="{{route('edit', $task -> id)}}">
+                        <i class="fa fa-pencil-square-o" aria-hidden="true"> Modifica</i>
+                    </a>
+                </div>
             </div>
 
             {{-- campo informazioni --}}

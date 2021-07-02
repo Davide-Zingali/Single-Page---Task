@@ -84,9 +84,6 @@
                     Benvenuto
                 </div>
                 
-                
-                
-                
                 @if (Route::has('login'))
                     <div class="">
                     @auth
@@ -96,8 +93,6 @@
                     @endauth
                     </div>
                 @endif
-
-
 
             </div>
         </div>
