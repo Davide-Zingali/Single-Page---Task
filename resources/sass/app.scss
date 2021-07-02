@@ -1,0 +1,29 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font-awesome
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+input, textarea {
+    background-color: rgb(238, 238, 238);
+    border-radius: 3px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 0 10px;
+    color: rgb(83, 83, 83);
+}
+
+.modifica {
+    i {
+        font-size: 25px;
+    }
+
+    i:hover {
+        color: rgb(39, 39, 138);
+    }
+}
